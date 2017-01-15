@@ -18,9 +18,9 @@ namespace RoadNamer.Tools
             base.Awake();
         }
 
-        protected override void OnToolGUI()
+        protected override void OnToolGUI(Event e) //kh added new Event argment 
         {
-            base.OnToolGUI();
+            base.OnToolGUI(e); //added e arg
         }
 
         protected override void OnEnable()

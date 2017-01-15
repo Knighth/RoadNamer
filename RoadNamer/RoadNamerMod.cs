@@ -8,6 +8,7 @@ namespace RoadNamer
     {
         private OptionsManager m_optionsManager = null;
 
+        //KH just for reference, org workshop id:558960454 
         public string Name
         {
             get

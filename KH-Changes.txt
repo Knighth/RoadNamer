@@ -1,0 +1,10 @@
+
+Version of CimTools dll need to be updated.
+I could have maybe just updated it to use CimTools v2, but didn't yet.
+Decompiled original CimTools (v0.1.5821.35742), used that as source, removed ref's to Steamworks replaced with Platformservices for 1.6 and used 'release' instead of debug build, which is why dll is much smaller than original.
+
+As for roadname only needed to update for 1.6 CO changes related to OnToolGui getting a new requires argument.
+
+RoadSelectTool - OnToolGui() replaced with OnToolGui(Event e)  related call to Base.OnToolGui updated for Base.OnToolGui(e)
+
+
